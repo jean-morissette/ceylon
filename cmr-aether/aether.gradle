@@ -14,4 +14,5 @@ dependencies {
     compile 'org.eclipse.aether:aether-connector-basic:1.1.0'
     compile 'org.eclipse.aether:aether-transport-file:1.1.0'
     compile 'org.eclipse.aether:aether-transport-http:1.1.0'
+    compile 'org.ceylon-lang:com.redhat.ceylon.aether:3.3.9'
 }
