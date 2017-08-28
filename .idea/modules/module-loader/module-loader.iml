@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":module-loader" external.linked.project.path="$MODULE_DIR$/../../../module-loader" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="ceylon" external.system.module.version="1.3.4-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/../../../module-loader/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../module-loader/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../module-loader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../module-loader/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../module-loader/test/src" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../module-loader/test/src" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../module-loader/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../module-loader/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="common" />
+    <orderEntry type="module" module-name="model" />
+    <orderEntry type="module" module-name="langtools-classfile" />
+    <orderEntry type="module" module-name="cmr" />
+    <orderEntry type="module" module-name="cmr-aether" />
+    <orderEntry type="module" module-name="cmr-webdav" />
+    <orderEntry type="module" module-name="cmr-js" />
+    <orderEntry type="module" module-name="language" />
+    <orderEntry type="library" name="Gradle: org.tautua.markdownpapers:markdownpapers-core:1.3.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss:jandex:2.0.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.modules:jboss-modules:1.4.4.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-model:3.3.9" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-settings:3.3.9" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-settings-builder:3.3.9" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-aether-provider:3.3.9" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-api:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-impl:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-connector-basic:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-transport-file:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-transport-http:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.ceylon-lang:com.redhat.ceylon.aether:3.3.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.lookfirst:sardine:5.1" level="project" />
+    <orderEntry type="library" name="Gradle: net.minidev:json-smart:1.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.plexus:plexus-utils:3.0.22" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-builder-support:3.3.9" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.plexus:plexus-interpolation:1.21" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.plexus:plexus-component-annotations:1.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.sonatype.plexus:plexus-sec-dispatcher:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-model-builder:3.3.9" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-repository-metadata:3.3.9" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.3.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:jcl-over-slf4j:1.6.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.8" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.1.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.sonatype.plexus:plexus-cipher:1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-artifact:3.3.9" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-spi:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.aether:aether-util:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.3.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+</module>

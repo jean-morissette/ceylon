@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ant-plugin" target="1.7" />
+      <module name="ant-plugin_main" target="1.7" />
+      <module name="ant-plugin_test" target="1.7" />
+      <module name="bootstrap" target="1.7" />
+      <module name="bootstrap_main" target="1.7" />
+      <module name="bootstrap_test" target="1.7" />
+      <module name="cli" target="1.7" />
+      <module name="cli_main" target="1.7" />
+      <module name="cli_test" target="1.7" />
+      <module name="cmr" target="1.7" />
+      <module name="cmr-aether" target="1.7" />
+      <module name="cmr-aether_main" target="1.7" />
+      <module name="cmr-aether_test" target="1.7" />
+      <module name="cmr-js" target="1.7" />
+      <module name="cmr-js_main" target="1.7" />
+      <module name="cmr-js_test" target="1.7" />
+      <module name="cmr-webdav" target="1.7" />
+      <module name="cmr-webdav_main" target="1.7" />
+      <module name="cmr-webdav_test" target="1.7" />
+      <module name="cmr_main" target="1.7" />
+      <module name="cmr_test" target="1.7" />
+      <module name="common" target="1.7" />
+      <module name="common_main" target="1.7" />
+      <module name="common_test" target="1.7" />
+      <module name="compiler-java" target="1.7" />
+      <module name="compiler-java_jdk6Stubs" target="1.6" />
+      <module name="compiler-java_main" target="1.7" />
+      <module name="compiler-java_test" target="1.7" />
+      <module name="compiler-js" target="1.7" />
+      <module name="compiler-js_jdk5Stubs" target="1.5" />
+      <module name="compiler-js_main" target="1.7" />
+      <module name="compiler-js_test" target="1.7" />
+      <module name="java-main" target="1.7" />
+      <module name="java-main_main" target="1.7" />
+      <module name="java-main_test" target="1.7" />
+      <module name="langtools-classfile" target="1.7" />
+      <module name="langtools-classfile_main" target="1.7" />
+      <module name="langtools-classfile_test" target="1.7" />
+      <module name="model" target="1.7" />
+      <module name="model_main" target="1.7" />
+      <module name="model_test" target="1.7" />
+      <module name="module-loader" target="1.7" />
+      <module name="module-loader_main" target="1.7" />
+      <module name="module-loader_test" target="1.7" />
+      <module name="osgi_main" target="1.8" />
+      <module name="osgi_test" target="1.8" />
+      <module name="runtime" target="1.7" />
+      <module name="runtime_main" target="1.7" />
+      <module name="runtime_test" target="1.7" />
+      <module name="tool-provider" target="1.7" />
+      <module name="tool-provider_main" target="1.7" />
+      <module name="tool-provider_test" target="1.7" />
+      <module name="tools" target="1.7" />
+      <module name="tools_main" target="1.7" />
+      <module name="tools_test" target="1.7" />
+      <module name="typechecker" target="1.7" />
+      <module name="typechecker_main" target="1.7" />
+      <module name="typechecker_test" target="1.7" />
+      <module name="typechecker_treegen" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

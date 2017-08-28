@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ant-plugin/ant-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/ant-plugin/ant-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bootstrap/bootstrap.iml" filepath="$PROJECT_DIR$/.idea/modules/bootstrap/bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ceylon.iml" filepath="$PROJECT_DIR$/.idea/modules/ceylon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cli/cli.iml" filepath="$PROJECT_DIR$/.idea/modules/cli/cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cmr/cmr.iml" filepath="$PROJECT_DIR$/.idea/modules/cmr/cmr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cmr-aether/cmr-aether.iml" filepath="$PROJECT_DIR$/.idea/modules/cmr-aether/cmr-aether.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cmr-js/cmr-js.iml" filepath="$PROJECT_DIR$/.idea/modules/cmr-js/cmr-js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cmr-webdav/cmr-webdav.iml" filepath="$PROJECT_DIR$/.idea/modules/cmr-webdav/cmr-webdav.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compiler-java/compiler-java.iml" filepath="$PROJECT_DIR$/.idea/modules/compiler-java/compiler-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compiler-js/compiler-js.iml" filepath="$PROJECT_DIR$/.idea/modules/compiler-js/compiler-js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dist/dist.iml" filepath="$PROJECT_DIR$/.idea/modules/dist/dist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle/linked-projects/formatter.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle/linked-projects/formatter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle/linked-projects/ideCommon.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle/linked-projects/ideCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle/linked-projects/ideEclipse.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle/linked-projects/ideEclipse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-main/java-main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-main/java-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/langtools-classfile/langtools-classfile.iml" filepath="$PROJECT_DIR$/.idea/modules/langtools-classfile/langtools-classfile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/language/language.iml" filepath="$PROJECT_DIR$/.idea/modules/language/language.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linked/linked.iml" filepath="$PROJECT_DIR$/.idea/modules/linked/linked.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/model/model.iml" filepath="$PROJECT_DIR$/.idea/modules/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module-loader/module-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/module-loader/module-loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dist/osgi/osgi.iml" filepath="$PROJECT_DIR$/.idea/modules/dist/osgi/osgi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/runtime/runtime.iml" filepath="$PROJECT_DIR$/.idea/modules/runtime/runtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/runtime-externals/runtime-externals.iml" filepath="$PROJECT_DIR$/.idea/modules/runtime-externals/runtime-externals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle/linked-projects/sdk.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle/linked-projects/sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tool-provider/tool-provider.iml" filepath="$PROJECT_DIR$/.idea/modules/tool-provider/tool-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle/linked-projects/toolConverterJava2ceylon.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle/linked-projects/toolConverterJava2ceylon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tools/tools.iml" filepath="$PROJECT_DIR$/.idea/modules/tools/tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/typechecker/typechecker.iml" filepath="$PROJECT_DIR$/.idea/modules/typechecker/typechecker.iml" />
+    </modules>
+  </component>
+</project>
