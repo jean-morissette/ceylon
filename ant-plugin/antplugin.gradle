@@ -12,17 +12,18 @@ dependencies {
 }
 
 sourceSets {
-    main {
-        java {
-            srcDirs = [ "${project(':compiler-java').projectDir}/src"]
-            include 'com/redhat/ceylon/ant/**'
-            include 'com/redhat/ceylon/launcher/**'
-        }
-        resources {
-            srcDirs = [ "${project(':compiler-java').projectDir}/src"]
-            include "com/redhat/ceylon/ant/antlib.xml"
-        }
-    }
+// todo: module can't contain sources that are located under another module root folder
+//    main {
+//        java {
+//            srcDirs = [ "${project(':compiler-java').projectDir}/src"]
+//            include 'com/redhat/ceylon/ant/**'
+//            include 'com/redhat/ceylon/launcher/**'
+//        }
+//        resources {
+//            srcDirs = [ "${project(':compiler-java').projectDir}/src"]
+//            include "com/redhat/ceylon/ant/antlib.xml"
+//        }
+//    }
 }
 
 jar {

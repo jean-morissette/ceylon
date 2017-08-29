@@ -19,21 +19,8 @@
             <option value="$PROJECT_DIR$/cmr-js" />
             <option value="$PROJECT_DIR$/cmr-webdav" />
             <option value="$PROJECT_DIR$/common" />
-            <option value="$PROJECT_DIR$/compiler-java" />
-            <option value="$PROJECT_DIR$/compiler-js" />
-            <option value="$PROJECT_DIR$/dist" />
-            <option value="$PROJECT_DIR$/dist/osgi" />
-            <option value="$PROJECT_DIR$/gradle/linked-projects" />
-            <option value="$PROJECT_DIR$/java-main" />
             <option value="$PROJECT_DIR$/langtools-classfile" />
-            <option value="$PROJECT_DIR$/language" />
-            <option value="$PROJECT_DIR$/linked" />
             <option value="$PROJECT_DIR$/model" />
-            <option value="$PROJECT_DIR$/module-loader" />
-            <option value="$PROJECT_DIR$/runtime" />
-            <option value="$PROJECT_DIR$/runtime-externals" />
-            <option value="$PROJECT_DIR$/tool-provider" />
-            <option value="$PROJECT_DIR$/tools" />
             <option value="$PROJECT_DIR$/typechecker" />
           </set>
         </option>

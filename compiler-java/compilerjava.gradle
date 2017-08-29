@@ -44,8 +44,9 @@ dependencies {
 sourceSets {
     jdk6Stubs {
         java {
+//            todo: module can't contain sources that are located under another module root folder
+//            source project(':common').sourceSets.main.java
             srcDirs = ['src','langtools/src/share/classes']
-            source project(':common').sourceSets.main.java
             include "**/Java7Checker.java"
             include "com/redhat/ceylon/tools/Tool.java"
             include "com/redhat/ceylon/tools/Plugin.java"
@@ -72,7 +73,10 @@ sourceSets {
             exclude "com/redhat/ceylon/launcher/**"
         }
         resources {
-            srcDirs = [ 'src',"${project(':common').projectDir}/src",'langtools/src/share/classes' ]
+            srcDirs = [ 'src',
+//                        todo: module can't contain sources that are located under another module root folder
+//                        "${project(':common').projectDir}/src",
+                        'langtools/src/share/classes' ]
             include 'com/redhat/**/*.utf8properties'
             include 'com/redhat/**/resources/**'
             include 'com/redhat/**/*.properties'

@@ -6,8 +6,9 @@ ext {
     ceylonBundleVersionWithTimestamp =  OsgiVersion.withTimestamp(ceylonBundleVersionWithoutTimestamp, TimeStamp.OSGI_TIMESTAMP)
 }
 
-apply plugin : LifecycleBasePlugin
-apply plugin : CeylonCommonBuildProperties
+//apply plugin : LifecycleBasePlugin
+//apply plugin : CeylonCommonBuildProperties
+apply from : "${rootProject.projectDir}/gradle/java-for-modules.gradle"
 
 configurations {
     antOutput
@@ -17,6 +18,25 @@ dependencies {
     antOutput fileTree("${buildDir}/dist") {
         include "**/*.jar"
         include "**/*.car"
+    }
+    compile project(':model')
+
+    // todo: the file with .car extension has been manually renamed to .jar cause Gradle does not recognize .car
+    compile files("${rootProject.projectDir}/dist/dist/repo/ceylon/language/1.3.4-SNAPSHOT/ceylon.language-1.3.4-SNAPSHOT.jar")
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'runtime'
+            srcDir 'runtime-js'
+        }
+    }
+
+    test {
+        java {
+            srcDir 'test-jvm'
+        }
     }
 }
 
@@ -64,12 +84,13 @@ task publishOsgiJar( type : Copy ) {
     rename ~/.+/,"ceylon.language_${ceylonBundleVersionWithTimestamp}.jar"
 }
 
-task publishInternal( type : Copy ) {
-    dependsOn invokeAntBuild, languageModuleXml, publishOsgiJar
-
-    from languageModuleXml
-    into "${repoDir}/${cbp.'ceylon.language.dir'}"
-}
+// TODO: this has been commented out so IntelliJ does not complain on Gradle-refresh
+//task publishInternal( type : Copy ) {
+//    dependsOn invokeAntBuild, languageModuleXml, publishOsgiJar
+//
+//    from languageModuleXml
+//    into "${repoDir}/${cbp.'ceylon.language.dir'}"
+//}
 
 ['common','cli','model','cmr','compiler-java','langtools-classfile','typechecker','compiler-js'].each {
     publishInternal.dependsOn ":${it}:publishInternal"

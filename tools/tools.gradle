@@ -10,5 +10,8 @@ dependencies {
     compile project(':common')
     compile project(':model')
     compile project(':cmr')
+    compile project(':cli')
+    compile project(':bootstrap')
+    compile 'com.github.rjeschke:txtmark:0.13'
 }
 

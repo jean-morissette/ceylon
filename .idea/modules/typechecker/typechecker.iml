@@ -24,9 +24,13 @@
     <orderEntry type="module" module-name="cmr-aether" />
     <orderEntry type="module" module-name="cmr-webdav" />
     <orderEntry type="module" module-name="cmr-js" />
+    <orderEntry type="library" name="Gradle: org.antlr:antlr-complete:3.5.2" level="project" />
     <orderEntry type="library" name="Gradle: org.tautua.markdownpapers:markdownpapers-core:1.3.4" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss:jandex:2.0.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.modules:jboss-modules:1.4.4.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.antlr:antlr:3.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.antlr:antlr-runtime:3.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.antlr:gunit:3.5.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.maven:maven-model:3.3.9" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.maven:maven-settings:3.3.9" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.maven:maven-settings-builder:3.3.9" level="project" />
@@ -39,6 +43,9 @@
     <orderEntry type="library" name="Gradle: org.ceylon-lang:com.redhat.ceylon.aether:3.3.9" level="project" />
     <orderEntry type="library" name="Gradle: com.github.lookfirst:sardine:5.1" level="project" />
     <orderEntry type="library" name="Gradle: net.minidev:json-smart:1.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.antlr:ST4:4.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.antlr:stringtemplate:3.2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.plexus:plexus-utils:3.0.22" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.4" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.maven:maven-builder-support:3.3.9" level="project" />
@@ -52,6 +59,8 @@
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.8" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.1.3" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: antlr:antlr:2.7.7" level="project" />
     <orderEntry type="library" name="Gradle: org.sonatype.plexus:plexus-cipher:1.4" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.maven:maven-artifact:3.3.9" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:18.0" level="project" />

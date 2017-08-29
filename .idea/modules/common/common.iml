@@ -4,9 +4,6 @@
     <output url="file://$MODULE_DIR$/../../../common/out/production/classes" />
     <output-test url="file://$MODULE_DIR$/../../../common/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../build/common/generated-java">
-      <sourceFolder url="file://$MODULE_DIR$/../../../build/common/generated-java" isTestSource="false" />
-    </content>
     <content url="file://$MODULE_DIR$/../../../common">
       <sourceFolder url="file://$MODULE_DIR$/../../../common/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../common/test/src" isTestSource="true" />

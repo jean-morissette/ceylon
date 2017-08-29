@@ -9,6 +9,7 @@ dependencies {
     compile project(':model')
     compile project(':cmr')
     compile project(path : ':language', configuration : 'antOutput')
+    compile project(':model')
 }
 
 // TODO: Can be removed if language build is pure Gradle

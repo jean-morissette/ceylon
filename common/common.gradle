@@ -19,8 +19,9 @@ ext {
 sourceSets {
     main {
         java {
-            exclude versionsTemplate
-            srcDir generatedSrcDir
+            // TODO: we can't exclude file in IntelliJ, only folder
+//            exclude versionsTemplate
+//            srcDir generatedSrcDir
         }
     }
 }
